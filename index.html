@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Fruit Quiz</title>
+</head>
+
+<body>
+    <!-- Start Quiz Button -->
+    <div class="start-btn"><button>Start Quiz</button></div>
+    <!-- Rules -->
+    <div class="rules">
+        <div class="rule_title">
+            <span>Rules of this Quiz</span>
+        </div>
+        <div class="rule_list">
+            <div id="info">1. You have only <span>15 seconds</span> per question.</div>
+            <div id="info">2. You will get score points for your correct answers.</div>
+            <div id="info">3. You can't select any option once the time counts down.</div>
+            <div id="info">4. You can't exit from quiz while playing you have to restart.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+    <!-- Quiz -->
+    <div class="quiz">
+        <header>
+            <div class="title">Begin Quiz</div>
+            <div class="timer">
+                <div id="time-text">Remaining time</div>
+                <div id="timer-sec">15</div>
+            </div>
+        </header>
+        <section>
+            <div id="que_text">
+                <span>What color is broccoli ?</span>
+            </div>
+            <div id="option-list">
+                <div id="option">
+                    <span>Yellow</span>
+                    <div class="icon wrong"><i class="material-icons">&#xe814;</i></div>
+                </div>
+                <div id="option">
+                    <span>Green</span>
+                    <div class="icon right"><i class='fas'>&#xf582;</i></div>
+                </div>
+                <div id="option">
+                    <span>Blue</span>
+                </div>
+                <div id="option">
+                    <span>Red</span>
+                </div>
+            </div>
+        </section>
+        <!-- Quiz box footer -->
+        <footer>
+            <div id="total_q">
+                <span><p>2</p>of<p>5</p>Questions</span>
+            </div>
+            <button id="next_btn">Next</button>
+        </footer>
+    </div>
+    <!-- Quiz over -->
+    <div class="result">
+        <div id="complete-text">Congrats, you have completed the Quiz!</div>
+        <div id="score">
+            <span>Sorry,congrats you got <p>2</p>Out of <p>5</p></span>
+        </div>
+        <button class="submit">Enter initials</button> 
+        <input type="initials">
+    </div>
+    <!-- Result with initials -->
+    <div class="result2">
+        <div id="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div id="complete">HighScore!</div>
+        <div id="scores"></div>
+        <div class="buttons">
+            <button class="replay">Replay Quiz</button>
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
