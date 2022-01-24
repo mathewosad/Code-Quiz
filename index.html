@@ -11,7 +11,7 @@
 
 <body>
     <!-- Start Quiz Button -->
-    <div class="start-btn"><button>Start Quiz</button></div>
+    <div class="start_btn"><button>Start Quiz</button></div>
     <!-- Rules -->
     <div class="rules">
         <div class="rule_title">
@@ -33,35 +33,39 @@
         <header>
             <div class="title">Begin Quiz</div>
             <div class="timer">
-                <div id="time-text">Remaining time</div>
-                <div id="timer-sec">15</div>
+                <div id="time_text">Remaining time</div>
+                <div id="timer_sec">15</div>
             </div>
         </header>
         <section>
             <div id="que_text">
-                <span>What color is broccoli ?</span>
+                <!-- <span>What color is broccoli ?</span> -->
             </div>
-            <div id="option-list">
-                <div id="option">
+            <div id="option_list">
+                <!-- take all and add to one div ID? -->
+                
+                <!-- <div id="option">
                     <span>Yellow</span>
-                    <div class="icon wrong"><i class="material-icons">&#xe814;</i></div>
+                    <div class="icon wrong"><i class='fas fa-times'></i></div>
                 </div>
                 <div id="option">
                     <span>Green</span>
-                    <div class="icon right"><i class='fas'>&#xf582;</i></div>
+                    <div class="icon right"><i class='far fa-check-circle'></i></div>
                 </div>
                 <div id="option">
                     <span>Blue</span>
                 </div>
                 <div id="option">
                     <span>Red</span>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Quiz box footer -->
         <footer>
             <div id="total_q">
-                <span><p>2</p>of<p>5</p>Questions</span>
+                <span>
+                    <p>2</p>of<p>5</p>Questions
+                </span>
             </div>
             <button id="next_btn">Next</button>
         </footer>
@@ -72,14 +76,12 @@
         <div id="score">
             <span>Sorry,congrats you got <p>2</p>Out of <p>5</p></span>
         </div>
-        <button class="submit">Enter initials</button> 
+        <button class="submit">Enter initials</button>
         <input type="initials">
     </div>
+
     <!-- Result with initials -->
     <div class="result2">
-        <div id="icon">
-            <i class="fas fa-crown"></i>
-        </div>
         <div id="complete">HighScore!</div>
         <div id="scores"></div>
         <div class="buttons">
