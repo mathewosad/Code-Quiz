@@ -28,7 +28,9 @@ body{
 }
 
 .rules.activeInfo,
-.quiz.activeQuiz
+.quiz.activeQuiz,
+.result.activeResult,
+.result2.activeResult2
 {
     z-index: 5;
     opacity: 1;
@@ -213,14 +215,27 @@ body{
     pointer-events: none;
 }
 .icon.right{
-    color: #23903c;
+    color: #00ff3c;
     border-color: #23903c;
-    background: #d4edda;
+    background: #00ff3c;
 }
 .icon.wrong{
     color: #a4283a;
     border-color: #23903c;
     background: #a4283a;
+}
+#option.correct{
+    color: #18cf42;
+    border-color: #d4edda;
+    background: #d4edda;
+}
+#option.incorrect{
+    color: #ff0026;
+    border-color: #d4d4d4;
+    background: #ffc8c8;
+}
+#option.disable{
+    pointer-events: none;
 }
 /* quiz page footer styling */
 .quiz footer{
