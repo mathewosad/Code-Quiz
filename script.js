@@ -213,16 +213,19 @@ submit.onclick = () => {
     result.classList.remove("activeResult");
     result2.classList.add("activeResult2");
     localStorage.setItem("initials", JSON.stringify(initials.value));
-         function renderLastinitials() {
-            // Use JSON.parse() to convert text to JavaScript object
-            var Lastinitials = JSON.parse(localStorage.getItem("initials"));
-            if (Lastinitials !== null){
-            localStorage.getItem("initials", JSON.stringify(initials));
-            document.getElementById("saved_comments").innerHTML = Lastinitials.initials;
-            }
+    renderLastinitials("scoreText")
+ }
+
+
+    function renderLastinitials() {
+        // Use JSON.parse() to convert text to JavaScript object
+        var Lastinitials = JSON.parse(localStorage.getItem("initials"));
+        if (Lastinitials !== null){
+            document.getElementById("saved_initials").innerHTML = Lastinitials;
         }
 
-    }   
+    }
+    renderLastinitials("scoreText")
 //show the highscores
 
 // when clicked it reloads the page 
