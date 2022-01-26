@@ -27,11 +27,18 @@ Application user experience is intuitive and easy to navigate.
 
 * Application user interface style is clean and polished.
 
-Repository has a unique name. Fruits Quiz.
+# Repository has a unique name.Fruit Quiz.
 
 * Repository contains multiple descriptive commit messages.
 
 * Readme file contains description above , screenshot (below), and link to deployed application.
+
+# (Deployed link)
+https://mathewosad.github.io/Fruit-Quiz/
+
+# Screenshot
+
+![](Screenshot/Fruit%20quiz.JPG)
 
 Thank you.
 
