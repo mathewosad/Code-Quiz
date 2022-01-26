@@ -109,6 +109,14 @@ body{
     background: #3db698;
     color: #ffffff;
 }
+
+.buttons button.quit_quiz{
+    color: #3db698;
+}
+.buttons button.quit_quiz:hover{
+    background: #3db698;
+    color: #ffffff;
+}
 .buttons button.continue{
     background: #72eecf;
     color: #ffffff;
