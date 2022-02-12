@@ -36,7 +36,7 @@ AS A coding boot camp student i was given a task to make a unique online quiz th
 * Bootstrap
 
 ## Sreenshot
-![Code Quiz ](./Screenshot/code quiz.JPG)
+![](./Screenshot/codequiz.JPG)
 
 
 ## Websites
