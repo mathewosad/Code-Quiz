@@ -41,7 +41,7 @@ AS A coding boot camp student i was given a task to make a unique online quiz th
 
 ## Websites
 * Github: https://github.com/mathewosad/Code-Quiz
-* Deployed: 
+* Deployed: https://mathewosad.github.io/Code-Quiz/
 
 ## License
 MIT
