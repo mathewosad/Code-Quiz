@@ -40,8 +40,8 @@ AS A coding boot camp student i was given a task to make a unique online quiz th
 
 
 ## Websites
-* Github: https://github.com/mathewosad/Fruit-Quiz
-* Deployed: https://mathewosad.github.io/Fruit-Quiz/
+* Github: https://github.com/mathewosad/Code-Quiz
+* Deployed: 
 
 ## License
 MIT
